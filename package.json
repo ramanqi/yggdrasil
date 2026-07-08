@@ -1,0 +1,15 @@
+{
+  "name": "yggdrasil",
+  "version": "1.0.0",
+  "description": "A scalable proxy server that aggregates multiple Lavalink instances into a single endpoint.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
