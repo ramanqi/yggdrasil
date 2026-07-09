@@ -129,7 +129,7 @@ wss.on("connection", (ws) => {
 global.restRpcCallbacks = {};
 let rpcCounter = 0;
 
-app.all("/v4/*", async (req, res) => {
+app.all("/v4/*splat", async (req, res) => {
     const userId = req.headers["user-id"];
     const nodeId = botSessions.get(userId);
 
